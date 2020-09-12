@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    // my edit
     {
         if (Input.GetButtonDown("Jump") & numJump < 2) {
             rb.AddForce(new Vector3(0f, 400f, 0f));
